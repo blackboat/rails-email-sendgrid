@@ -3,8 +3,11 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
+<<<<<<< HEAD
 # Use sqlite3 as the database for Active Record
 
+=======
+>>>>>>> 033f474b1be8714c46c9b2b71db455517c2e36cd
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -49,3 +52,7 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 033f474b1be8714c46c9b2b71db455517c2e36cd
