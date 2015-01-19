@@ -10,15 +10,10 @@ class WelcomeController < ApplicationController
       body    'abcdefghijmd'
     end
 
-    mail.to_s
+    mail.delivery_method :sendmail
 
-    Mail.deliver do
-      from    'dorumunteanu17@gmail.com'
-      to      'wbenjamin1028@gmail.com'
-      subject  'Here is the image you wanted'
-      body     'abe1234'
-    end
+    mail.deliver
 
-    render text: "abcdea"
+    render text: "abcdeaas123"
   end
 end
