@@ -36664,3 +36664,225 @@ ActionController::RoutingError (No route matches [GET] "/fonts/HelveticaNeue-Lig
   Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
   Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
   Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+Processing by WelcomeController#index as HTML
+  Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.0ms)
+
+ContactMailer#welcome_email: processed outbound mail in 3.3ms
+
+Sent mail to wbenjamin1028@gmail.com (1.8ms)
+Date: Mon, 19 Jan 2015 21:37:54 +0200
+From: dorumunteanu17@gmail.com
+To: wbenjamin1028@gmail.com
+Message-ID: <54bd5d12158cf_261d3fc8cc5054cc601f0@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Hello!!</h1>
+  </body>
+</html>
+
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 74ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-046d3bc5fdf9c22cba4af672aade917b.css?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/flexslider-a5c71668ac0c5abbef84a0288b2b0130.css?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/application-f9b5742d35fcebf88f3f2c4f8296149e.css?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/responsive-75f04aa3b61d137168b17990e5bc5c22.css?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/fonts-5154d1c5710cb8e4cc0a38fc81377685.css?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/style-31860f48a423649c13e8c889d2124bd8.css?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/jquery.min-6697bf64cb07f58abfcb7e432990c397.js?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/bootstrap-ea3b329478de86f6874de44432b0d04a.js?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/jquery.flexslider-868b7a302b4dba92c4e66fb9f472c9f2.js?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/npm-da4f227e59af86f207a0205d406be261.js?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/script-abde7ea37811e7ab0857ba8d217991f2.js?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/application-68c591992b38bb1e85707c11dd01b6b4.js?body=1" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/close-e9ad086593bd1090a45f1ed7d48556d4.png" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/phone-f7de11a4e71c71e5c059018b5775397e.png" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/test-icon-e55fc9641cf7b3822be5189b325372e1.png" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/slider1-df00f0f0d956da3e16b73927e8b937f9.jpg" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/logo-64931a89316f4aa89fc837fe0ce82e54.png" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/icon1-26f2647f9f27c3b3d2f80fcc93ab2f24.png" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/partner1-23ebc29c5f6eeee6bda391d7770544c5.png" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/partner2-2b572abfa90ce671c4b9669b15392150.png" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/partner3-ca4eae44a49b0bee4f7f29f9362e16ae.png" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/assets/partner4-d9c84f40a0324ac98d53a0e067778100.png" for 127.0.0.1 at 2015-01-19 21:37:54 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-046d3bc5fdf9c22cba4af672aade917b.css?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/flexslider-a5c71668ac0c5abbef84a0288b2b0130.css?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/responsive-75f04aa3b61d137168b17990e5bc5c22.css?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/fonts-5154d1c5710cb8e4cc0a38fc81377685.css?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/application-f9b5742d35fcebf88f3f2c4f8296149e.css?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/style-31860f48a423649c13e8c889d2124bd8.css?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/jquery.min-6697bf64cb07f58abfcb7e432990c397.js?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/bootstrap-ea3b329478de86f6874de44432b0d04a.js?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/jquery.flexslider-868b7a302b4dba92c4e66fb9f472c9f2.js?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/script-abde7ea37811e7ab0857ba8d217991f2.js?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/npm-da4f227e59af86f207a0205d406be261.js?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/application-68c591992b38bb1e85707c11dd01b6b4.js?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/close-e9ad086593bd1090a45f1ed7d48556d4.png" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/logo-64931a89316f4aa89fc837fe0ce82e54.png" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/partner2-2b572abfa90ce671c4b9669b15392150.png" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/phone-f7de11a4e71c71e5c059018b5775397e.png" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/slider1-df00f0f0d956da3e16b73927e8b937f9.jpg" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/test-icon-e55fc9641cf7b3822be5189b325372e1.png" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/icon1-26f2647f9f27c3b3d2f80fcc93ab2f24.png" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/partner1-23ebc29c5f6eeee6bda391d7770544c5.png" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/partner4-d9c84f40a0324ac98d53a0e067778100.png" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/assets/partner3-ca4eae44a49b0bee4f7f29f9362e16ae.png" for 127.0.0.1 at 2015-01-19 22:01:39 +0200
+
+
+Started GET "/send" for 127.0.0.1 at 2015-01-19 22:01:45 +0200
+Processing by WelcomeController#send_mail as HTML
+  Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.0ms)
+
+ContactMailer#welcome_email: processed outbound mail in 5.0ms
+
+Sent mail to wbenjamin1028@gmail.com (1.9ms)
+Date: Mon, 19 Jan 2015 22:01:45 +0200
+From: dorumunteanu17@gmail.com
+To: wbenjamin1028@gmail.com
+Message-ID: <54bd62a952525_261d3fc8c05202b0602af@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Hello!!</h1>
+  </body>
+</html>
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 0.0ms)

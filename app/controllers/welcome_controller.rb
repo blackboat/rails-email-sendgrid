@@ -1,6 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    ContactMailer.welcome_email().deliver_now
   end
 
   def send_mail
