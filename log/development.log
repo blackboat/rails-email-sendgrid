@@ -36914,3 +36914,31 @@ Content-Transfer-Encoding: 7bit
 
   Rendered text template (0.0ms)
 Completed 200 OK in 15ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/send" for 127.0.0.1 at 2015-01-20 01:48:15 +0200
+Processing by WelcomeController#send_mail as HTML
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from send_mail at /home/doru/RubymineProjects/proactives/app/controllers/welcome_controller.rb:16)
+  Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.0ms)
+
+ContactMailer#welcome_email: processed outbound mail in 5.2ms
+
+Sent mail to wbenjamin1028@gmail.com (2.4ms)
+Date: Tue, 20 Jan 2015 01:48:15 +0200
+From: sakaiinskas37@gmail.com
+To: wbenjamin1028@gmail.com
+Message-ID: <54bd97bf9977c_261d3fc8c408ca386048f@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Hello!!</h1>
+  </body>
+</html>
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms)
