@@ -1,0 +1,155 @@
+<div class="info">
+  <p>We are in <strong>Paris</strong> this <strong>week!</strong> <a href="#"><%=image_tag('close.png')%></a></p>
+</div>
+<header class="header">
+  <div style="background-color: white">
+    <%= link_to "Francais", :controller => 'welcome', :locale => 'fr' %>
+    <%= link_to "English", :controller => 'welcome', :locale => 'en' %>
+  </div>
+  <div class="container">
+    <div class="logo"> <a href="#"><%= image_tag('logo.png') %></a> </div>
+    <div class="nav"> <a href="#"><%= image_tag('phone.png')%> Contactez-nous</a> </div>
+  </div>
+</header>
+<section class="slider-outer">
+  <div class="flexslider" >
+    <ul class="slides" >
+      <li>
+        <div class="slider-content">
+          <h1>Nous sommes votre <strong>équipe IT</strong> et <strong>stratégie personnelle.</strong> </h1>
+          <a href="#">Inscrivez-vous</a> </div>
+        <%= image_tag('slider1.jpg') %>   </li>
+      <li>
+        <div class="slider-content">
+          <h1>Nous sommes votre <strong>équipe IT</strong> et <strong>stratégie personnelle.</strong> </h1>
+          <a href="#">Inscrivez-vous</a> </div>
+        <%= image_tag('slider1.jpg') %>  </li>
+      <li>
+        <div class="slider-content">
+          <h1>Nous sommes votre <strong>équipe IT</strong> et <strong>stratégie personnelle.</strong> </h1>
+          <a href="#">Inscrivez-vous</a> </div>
+        <%= image_tag('slider1.jpg') %>  </li>
+    </ul>
+  </div>
+</section>
+<section class="about-company">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-lg-push-8 col-md-push-8 col-sm-push-8">
+        <div class="img-outer">
+          <%=image_tag('icon1.png')%></div>
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-8 col-lg-pull-4 col-md-pull-4 col-sm-pull-4">
+        <div class="inner-wrap">
+          <h2>Qu’est-ce que Pro-Active ?</h2>
+          <p> Pro-Active est une solution qui fournit des services modernes pour webmestre, de l’accompagnement et de la stratégie en ligne.</p>
+          <p>Nous nous occupons de votre présence numérique (site Internet, médias sociaux, newsletter, mobile, SEO et SMO) avec une approche proactive soutenue pendant que vous prenez soin de votre entreprise. </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</section>
+<section class="tested">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-5 col-sm-5">
+        <div class="test-icon">
+          <%= image_tag('test-icon.png') %>
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-7 col-sm-7">
+        <h2>Testé & approuvé</h2>
+        <p>Pro-Active est le résultat de nombreuses années d'expérience de prestation de service à de nombreux clients, de différents domaines, face à des problèmes communs de l’heure liés à l'écosystème complexe et technique en ligne.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="partners">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-7 col-sm-7">
+        <h2>Des personnes auxquelles  vous pouvez faire confiance</h2>
+        <p>Nous sommes dans le monde des affaires depuis plus de 7 ans, nous sommes fiables et avons déjà servi plusieurs agences, startups, gouvernement et entreprises clientes dont : Adobe Canada, Bombardier, Broadcom, Forces armées canadiennes et Bell. </p>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-5">
+        <div class="logos">
+          <ul>
+            <li><a href="#"><%= image_tag('partner1.png')%></a></li>
+            <li><a href="#"><%= image_tag('partner2.png')%></a></li>
+            <li><a href="#"><%= image_tag('partner3.png')%></a></li>
+            <li><a href="#"><%= image_tag('partner4.png')%></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="packages">
+  <div class="container">
+    <h2>Nos <strong>forfaits</strong></h2>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="pro-active">
+          <div class="package-title">
+            <h3><sup>$</sup>299<span>/ mois</span></h3> <strong class="title">Pro-Active</strong>
+          </div>
+          <ul>
+            <li>3 heures de <span>maintenance</span> en tout</li>
+            <li>2 consultations en stratégie optionnelle facturées à 109$ / h.</li>
+            <li><span>Maintenance</span> supplémentaire 99 $ / h (au lieu de 129 $) </li>
+          </ul>
+          <p>La maintenance comprend : codage du site Web, design, mises à jour, optimisation standard des moteurs de recherche, gestion des médias sociaux.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <div class="pro-active plus">
+          <div class="package-title">
+            <h3><sup>$</sup>399<span>/ mois</span></h3> <strong class="title">Pro-active Plus</strong>
+          </div>
+          <ul>
+            <li>4 heures de <span>maintenance</span> en tout</li>
+            <li>3 consultations stratégiques par an jusqu’à une heure </li>
+            <li>Possibilité d'étalage de coût des projets IT majeurs de plus de <span>12 mois</span></li>
+          </ul>
+          <p>La maintenance comprend : codage du site Web, design, mises à jour, optimisation avancée des moteurs de recherche, gestion des médias sociaux.</p>
+          <strong class="required">Mois : sous réserve de l'approbation de la direction.</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sign-up">
+  <div class="container">
+    <h2><strong>Inscrivez-vous</strong></h2>
+    <form action="#" method="get">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <input type="text" class="form-control" placeholder="Votre nom complet">
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <input type="text" class="form-control" placeholder="Nom de la société">
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <input type="email" class="form-control" placeholder="E-mail">
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <select class="form-control">
+            <option value="Package Type">Type de forfait</option>
+            <option value="Package Type">Type de forfait</option>
+            <option value="Package Type">Type de forfait</option>
+          </select>
+        </div>
+        <div class="col-lg-12">
+          <input type="submit" value="Inscrivez-vous">
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Copyright &copy; 2015 Pro-Active</p>
+</footer>
+
