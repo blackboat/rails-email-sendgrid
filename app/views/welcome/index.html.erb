@@ -2,12 +2,17 @@
   <p>We are in <strong>Paris</strong> this <strong>week!</strong> <a href="#"><%=image_tag('close.png')%></a></p>
 </div>
 <header class="header">
+  <div style="background-color: white">
+    <%= link_to "Francais", :controller => 'welcome', :locale => 'fr' %>
+    <%= link_to "English", :controller => 'welcome', :locale => 'en' %>
+  </div>
   <div class="container">
     <div class="logo"> <a href="#"><%= image_tag('logo.png') %></a> </div>
     <div class="nav"> <a href="#"><%= image_tag('phone.png')%> Contact Us</a> </div>
   </div>
 </header>
 <section class="slider-outer">
+
   <div class="flexslider" >
     <ul class="slides" >
       <li>
@@ -27,6 +32,7 @@
         <%= image_tag('slider1.jpg') %>  </li>
     </ul>
   </div>
+
 </section>
 <section class="about-company">
   <div class="container">
