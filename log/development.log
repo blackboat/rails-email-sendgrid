@@ -36160,3 +36160,56 @@ Started GET "/send" for 127.0.0.1 at 2015-01-19 20:43:48 +0200
 Processing by WelcomeController#send_mail as HTML
   Rendered text template (0.0ms)
 Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/send" for 127.0.0.1 at 2015-01-19 21:05:50 +0200
+Processing by WelcomeController#send_mail as HTML
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 4b8aea8b-2d58-4b3c-9562-41dc36a589cf) to Inline(mailers) with arguments: "ContactMailer", "welcome_email", "deliver_now"
+[ActiveJob] [ActionMailer::DeliveryJob] [4b8aea8b-2d58-4b3c-9562-41dc36a589cf] Performing ActionMailer::DeliveryJob from Inline(mailers) with arguments: "ContactMailer", "welcome_email", "deliver_now"
+[ActiveJob] [ActionMailer::DeliveryJob] [4b8aea8b-2d58-4b3c-9562-41dc36a589cf] 
+ContactMailer#welcome_email: processed outbound mail in 3.3ms
+[ActiveJob] [ActionMailer::DeliveryJob] [4b8aea8b-2d58-4b3c-9562-41dc36a589cf] Performed ActionMailer::DeliveryJob from Inline(mailers) in 3.95ms
+Completed 500 Internal Server Error in 55ms
+
+ActionView::MissingTemplate (Missing template contact_mailer/welcome_email with "mailer". Searched in:
+  * "contact_mailer"
+):
+  app/mailers/contact_mailer.rb:5:in `welcome_email'
+  app/controllers/welcome_controller.rb:16:in `send_mail'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (18.2ms)
+
+
+Started GET "/send" for 127.0.0.1 at 2015-01-19 21:08:59 +0200
+Processing by WelcomeController#send_mail as HTML
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: ee7c7b70-2e9b-4b59-a8b4-f46894767968) to Inline(mailers) with arguments: "ContactMailer", "welcome_email", "deliver_now"
+[ActiveJob] [ActionMailer::DeliveryJob] [ee7c7b70-2e9b-4b59-a8b4-f46894767968] Performing ActionMailer::DeliveryJob from Inline(mailers) with arguments: "ContactMailer", "welcome_email", "deliver_now"
+[ActiveJob] [ActionMailer::DeliveryJob] [ee7c7b70-2e9b-4b59-a8b4-f46894767968]   Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.3ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [ee7c7b70-2e9b-4b59-a8b4-f46894767968] 
+ContactMailer#welcome_email: processed outbound mail in 5.8ms
+[ActiveJob] [ActionMailer::DeliveryJob] [ee7c7b70-2e9b-4b59-a8b4-f46894767968] 
+Sent mail to wbenjamin1028@gmail.com (1.8ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [ee7c7b70-2e9b-4b59-a8b4-f46894767968] Date: Mon, 19 Jan 2015 21:08:59 +0200
+From: dorumunteanu17@gmail.com
+To: wbenjamin1028@gmail.com
+Message-ID: <54bd564b43a13_261d3fc8cc71cf6c5965c@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <h1>Hello!!</h1>
+  </body>
+</html>
+
+[ActiveJob] [ActionMailer::DeliveryJob] [ee7c7b70-2e9b-4b59-a8b4-f46894767968] Performed ActionMailer::DeliveryJob from Inline(mailers) in 8.4ms
+  Rendered text template (0.0ms)
+Completed 200 OK in 14ms (Views: 1.7ms | ActiveRecord: 0.0ms)
