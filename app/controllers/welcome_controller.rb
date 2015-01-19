@@ -3,16 +3,17 @@ class WelcomeController < ApplicationController
   end
 
   def send_mail
-    mail = Mail.new do
-      from    'dorumunteanu17@gmail.com'
-      to      'wbenjamin1028@gmail.com'
-      subject 'This is a test email'
-      body    'abcdefghijmd'
-    end
-
-    mail.delivery_method :sendmail
-
-    mail.deliver
+    # mail = Mail.new do
+    #   from    'dorumunteanu17@gmail.com'
+    #   to      'wbenjamin1028@gmail.com'
+    #   subject 'This is a test email'
+    #   body    'abcdefghijmd'
+    # end
+    #
+    # mail.delivery_method :sendmail
+    #
+    # mail.deliver
+    ContactMailer.welcome_email().deliver_later
 
     render text: "abcdeaas123"
   end

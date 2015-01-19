@@ -36148,3 +36148,15 @@ Errno::ECONNREFUSED (Connection refused - connect(2) for "localhost" port 25):
   Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
   Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
   Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (16.7ms)
+
+
+Started GET "/send" for 127.0.0.1 at 2015-01-19 20:43:33 +0200
+Processing by WelcomeController#send_mail as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 13ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/send" for 127.0.0.1 at 2015-01-19 20:43:48 +0200
+Processing by WelcomeController#send_mail as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 12ms (Views: 0.4ms | ActiveRecord: 0.0ms)
