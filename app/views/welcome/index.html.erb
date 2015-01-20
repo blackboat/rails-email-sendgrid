@@ -126,29 +126,25 @@
 <section class="sign-up">
   <div class="container">
     <h2>Let’s <strong>Sign Up</strong></h2>
-    <form action="/send" method="get">
-      <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-3">
-          <input type="text" class="form-control" placeholder="Your Full Name">
+    <%= form_tag("/send", method: "post") do %>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <%= text_field_tag("name", "", class: "form-control", placeholder: "Your Full Name") %>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <%= text_field_tag("company", "", class: "form-control", placeholder: "Company Name") %>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <%= email_field_tag("mail", "", class: "form-control", placeholder: "Email Name") %>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <%= select_tag("package", options_for_select([['Package Type', 'Package Type'], ['Package Type', 'Package Type'], ['Package Type', 'Package Type']]), class: "form-control") %>
+          </div>
+          <div class="col-lg-12">
+            <%= submit_tag("Sign up") %>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3">
-          <input type="text" class="form-control" placeholder="Company Name">
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3">
-          <input type="email" class="form-control" placeholder="Email">
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3">
-          <select class="form-control">
-            <option value="Package Type">Package Type</option>
-            <option value="Package Type">Package Type</option>
-            <option value="Package Type">Package Type</option>
-          </select>
-        </div>
-        <div class="col-lg-12">
-          <input type="submit" value="Sign Up">
-        </div>
-      </div>
-    </form>
+    <% end %>
   </div>
 </section>
 <footer class="footer">

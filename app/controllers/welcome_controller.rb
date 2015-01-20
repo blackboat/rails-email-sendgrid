@@ -1,3 +1,4 @@
+require 'mail'
 class WelcomeController < ApplicationController
   def index
   end
@@ -13,8 +14,8 @@ class WelcomeController < ApplicationController
     # mail.delivery_method :sendmail
     #
     # mail.deliver
-    ContactMailer.welcome_email.deliver
-
-    render text: "abcdeaas12113"
+    @userinfo = params
+    ContactMailer.welcome_email(@userinfo).deliver
+    redirect_to root_path
   end
 end
