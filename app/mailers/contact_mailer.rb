@@ -1,5 +1,5 @@
 class ContactMailer < ApplicationMailer
-  default from: "sakaiinskas37@gmail.com"
+  default from: ENV['SENDGRID_USERNAME']
 
   def welcome_email(userinfo)
     @name = userinfo[:name]
