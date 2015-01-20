@@ -46001,3 +46001,247 @@ Started GET "/assets/partner3-ca4eae44a49b0bee4f7f29f9362e16ae.png" for 127.0.0.
 
 
 Started GET "/assets/partner4-d9c84f40a0324ac98d53a0e067778100.png" for 127.0.0.1 at 2015-01-20 11:05:28 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 73ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/responsive-75f04aa3b61d137168b17990e5bc5c22.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/style-31860f48a423649c13e8c889d2124bd8.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/flexslider-a5c71668ac0c5abbef84a0288b2b0130.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/bootstrap-046d3bc5fdf9c22cba4af672aade917b.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/application-f9b5742d35fcebf88f3f2c4f8296149e.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/fonts-5154d1c5710cb8e4cc0a38fc81377685.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/jquery.min-6697bf64cb07f58abfcb7e432990c397.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/bootstrap-ea3b329478de86f6874de44432b0d04a.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/jquery.flexslider-868b7a302b4dba92c4e66fb9f472c9f2.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/script-abde7ea37811e7ab0857ba8d217991f2.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/npm-da4f227e59af86f207a0205d406be261.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/application-68c591992b38bb1e85707c11dd01b6b4.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/close-e9ad086593bd1090a45f1ed7d48556d4.png" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/phone-f7de11a4e71c71e5c059018b5775397e.png" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/test-icon-e55fc9641cf7b3822be5189b325372e1.png" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/slider1-df00f0f0d956da3e16b73927e8b937f9.jpg" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/icon1-26f2647f9f27c3b3d2f80fcc93ab2f24.png" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/partner1-23ebc29c5f6eeee6bda391d7770544c5.png" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/logo-64931a89316f4aa89fc837fe0ce82e54.png" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/partner2-2b572abfa90ce671c4b9669b15392150.png" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/partner3-ca4eae44a49b0bee4f7f29f9362e16ae.png" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started GET "/assets/partner4-d9c84f40a0324ac98d53a0e067778100.png" for 127.0.0.1 at 2015-01-20 13:55:12 +0200
+
+
+Started POST "/send" for 127.0.0.1 at 2015-01-20 13:55:21 +0200
+Processing by WelcomeController#send_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5N0Sw+LU/TnbpHivnIIsp1zIIT/QekEF0nQeRpLVF6cc6FlhoCwZmU9zxDaM6aVrk9Wri4kTtIbiXqEhT3nzwg==", "name"=>"asdfasdf", "company"=>"sa3f", "mail"=>"wbenjamin1028@gmail.com", "package"=>"Package Type", "commit"=>"Sign up"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from send_mail at /home/doru/RubymineProjects/proactives/app/controllers/welcome_controller.rb:8)
+  Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.0ms)
+  Rendered contact_mailer/welcome_email.text.erb within layouts/mailer (0.0ms)
+
+ContactMailer#welcome_email: processed outbound mail in 38.3ms
+
+Sent mail to wbenjamin1028@gmail.com (8835.1ms)
+Date: Tue, 20 Jan 2015 13:55:21 +0200
+From: wbenjamin1028@gmail.com
+To: wbenjamin1028@gmail.com
+Message-ID: <54be4229ddbd9_2acf3fc2eae487389865e@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_54be4229d56dc_2acf3fc2eae4873898572";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_54be4229d56dc_2acf3fc2eae4873898572
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi
+mail sent using smtp.
+
+----==_mimepart_54be4229d56dc_2acf3fc2eae4873898572
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<p>
+  <strong>User full name:</strong>
+  asdfasdf
+</p>
+<p>
+  <strong>Company name:</strong>
+  sa3f
+</p>
+<p>
+  <strong>E-mail:</strong>
+  wbenjamin1028@gmail.com
+</p>
+<p>
+  <strong>Package Type:</strong>
+  Package Type
+</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_54be4229d56dc_2acf3fc2eae4873898572--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 9002ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 54ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-046d3bc5fdf9c22cba4af672aade917b.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/responsive-75f04aa3b61d137168b17990e5bc5c22.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/fonts-5154d1c5710cb8e4cc0a38fc81377685.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/flexslider-a5c71668ac0c5abbef84a0288b2b0130.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/style-31860f48a423649c13e8c889d2124bd8.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/application-f9b5742d35fcebf88f3f2c4f8296149e.css?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/jquery.min-6697bf64cb07f58abfcb7e432990c397.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/bootstrap-ea3b329478de86f6874de44432b0d04a.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/jquery.flexslider-868b7a302b4dba92c4e66fb9f472c9f2.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/npm-da4f227e59af86f207a0205d406be261.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/close-e9ad086593bd1090a45f1ed7d48556d4.png" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/application-68c591992b38bb1e85707c11dd01b6b4.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/script-abde7ea37811e7ab0857ba8d217991f2.js?body=1" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/logo-64931a89316f4aa89fc837fe0ce82e54.png" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/icon1-26f2647f9f27c3b3d2f80fcc93ab2f24.png" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/partner1-23ebc29c5f6eeee6bda391d7770544c5.png" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/test-icon-e55fc9641cf7b3822be5189b325372e1.png" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/partner2-2b572abfa90ce671c4b9669b15392150.png" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/phone-f7de11a4e71c71e5c059018b5775397e.png" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/slider1-df00f0f0d956da3e16b73927e8b937f9.jpg" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/partner3-ca4eae44a49b0bee4f7f29f9362e16ae.png" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
+
+
+Started GET "/assets/partner4-d9c84f40a0324ac98d53a0e067778100.png" for 127.0.0.1 at 2015-01-20 13:55:30 +0200
