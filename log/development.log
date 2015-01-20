@@ -48189,3 +48189,1168 @@ ActionController::RoutingError (No route matches [GET] "/fonts/HelveticaNeue.ttf
   Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.1ms)
   Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
   Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (21.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 155ms (Views: 147.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fonts-5154d1c5710cb8e4cc0a38fc81377685.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/bootstrap-046d3bc5fdf9c22cba4af672aade917b.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/flexslider-a5c71668ac0c5abbef84a0288b2b0130.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/style-31860f48a423649c13e8c889d2124bd8.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/responsive-75f04aa3b61d137168b17990e5bc5c22.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/application-f9b5742d35fcebf88f3f2c4f8296149e.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/npm-da4f227e59af86f207a0205d406be261.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/bootstrap-ea3b329478de86f6874de44432b0d04a.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/jquery.flexslider-868b7a302b4dba92c4e66fb9f472c9f2.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/script-abde7ea37811e7ab0857ba8d217991f2.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/jquery.min-6697bf64cb07f58abfcb7e432990c397.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/close-e9ad086593bd1090a45f1ed7d48556d4.png" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/application-68c591992b38bb1e85707c11dd01b6b4.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/logo-64931a89316f4aa89fc837fe0ce82e54.png" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/slider1-df00f0f0d956da3e16b73927e8b937f9.jpg" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/icon1-26f2647f9f27c3b3d2f80fcc93ab2f24.png" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/test-icon-e55fc9641cf7b3822be5189b325372e1.png" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/partner2-2b572abfa90ce671c4b9669b15392150.png" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/partner1-23ebc29c5f6eeee6bda391d7770544c5.png" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/phone-f7de11a4e71c71e5c059018b5775397e.png" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/partner3-ca4eae44a49b0bee4f7f29f9362e16ae.png" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started GET "/assets/partner4-d9c84f40a0324ac98d53a0e067778100.png" for 127.0.0.1 at 2015-01-20 17:28:00 +0200
+
+
+Started POST "/send" for 127.0.0.1 at 2015-01-20 17:28:04 +0200
+Processing by WelcomeController#send_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9E9wD5pHc+UxwrTJMuPpj4tL8P6i8+MLzWuTeraMZFYMejut2L+XRaUVCFAiiGBDRFZ6SvuaFoj9QSwdayCAMw==", "name"=>"", "company"=>"", "mail"=>"", "package"=>"Package Type", "commit"=>"Sign up"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from send_mail at /home/doru/RubymineProjects/proactives/app/controllers/welcome_controller.rb:8)
+  Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.5ms)
+  Rendered contact_mailer/welcome_email.text.erb within layouts/mailer (0.1ms)
+
+ContactMailer#welcome_email: processed outbound mail in 105.7ms
+
+Sent mail to wbenjamin1028@gmail.com (4.6ms)
+Date: Tue, 20 Jan 2015 17:28:04 +0200
+To: wbenjamin1028@gmail.com
+Message-ID: <54be7404adb73_588f3fe78d74074821929@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_54be7404ac896_588f3fe78d740748218bd";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_54be7404ac896_588f3fe78d740748218bd
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi
+mail sent using smtp.
+
+----==_mimepart_54be7404ac896_588f3fe78d740748218bd
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<p>
+  <strong>User full name:</strong>
+  
+</p>
+<p>
+  <strong>Company name:</strong>
+  
+</p>
+<p>
+  <strong>E-mail:</strong>
+  
+</p>
+<p>
+  <strong>Package Type:</strong>
+  Package Type
+</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_54be7404ac896_588f3fe78d740748218bd--
+
+Completed 500 Internal Server Error in 121ms
+
+ArgumentError (An SMTP From address is required to send a message. Set the message smtp_envelope_from, return_path, sender, or from address.):
+  app/controllers/welcome_controller.rb:8:in `send_mail'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (16.1ms)
+
+
+Started POST "/send" for 127.0.0.1 at 2015-01-20 17:28:22 +0200
+Processing by WelcomeController#send_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9E9wD5pHc+UxwrTJMuPpj4tL8P6i8+MLzWuTeraMZFYMejut2L+XRaUVCFAiiGBDRFZ6SvuaFoj9QSwdayCAMw==", "name"=>"asdfasdf", "company"=>"shimp", "mail"=>"wbenjamin1028@gmail.com", "package"=>"Package Type", "commit"=>"Sign up"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from send_mail at /home/doru/RubymineProjects/proactives/app/controllers/welcome_controller.rb:8)
+  Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.1ms)
+  Rendered contact_mailer/welcome_email.text.erb within layouts/mailer (0.0ms)
+
+ContactMailer#welcome_email: processed outbound mail in 7.9ms
+
+Sent mail to wbenjamin1028@gmail.com (3922.9ms)
+Date: Tue, 20 Jan 2015 17:28:22 +0200
+From: wbenjamin1028@gmail.com
+To: wbenjamin1028@gmail.com
+Message-ID: <54be74161a58a_588f3fe78d7407482211@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_54be741619bab_588f3fe78d740748220ea";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_54be741619bab_588f3fe78d740748220ea
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi
+mail sent using smtp.
+
+----==_mimepart_54be741619bab_588f3fe78d740748220ea
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<p>
+  <strong>User full name:</strong>
+  asdfasdf
+</p>
+<p>
+  <strong>Company name:</strong>
+  shimp
+</p>
+<p>
+  <strong>E-mail:</strong>
+  wbenjamin1028@gmail.com
+</p>
+<p>
+  <strong>Package Type:</strong>
+  Package Type
+</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_54be741619bab_588f3fe78d740748220ea--
+
+Completed 500 Internal Server Error in 3933ms
+
+Net::SMTPFatalError (550 Cannot receive from specified address <wbenjamin1028@gmail.com>: Unauthenticated senders not allowed
+):
+  app/controllers/welcome_controller.rb:8:in `send_mail'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (15.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-046d3bc5fdf9c22cba4af672aade917b.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/fonts-5154d1c5710cb8e4cc0a38fc81377685.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/flexslider-a5c71668ac0c5abbef84a0288b2b0130.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/style-31860f48a423649c13e8c889d2124bd8.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/responsive-75f04aa3b61d137168b17990e5bc5c22.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/application-f9b5742d35fcebf88f3f2c4f8296149e.css?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/jquery.min-6697bf64cb07f58abfcb7e432990c397.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/bootstrap-ea3b329478de86f6874de44432b0d04a.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/jquery.flexslider-868b7a302b4dba92c4e66fb9f472c9f2.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/script-abde7ea37811e7ab0857ba8d217991f2.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/npm-da4f227e59af86f207a0205d406be261.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/close-e9ad086593bd1090a45f1ed7d48556d4.png" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/application-68c591992b38bb1e85707c11dd01b6b4.js?body=1" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/logo-64931a89316f4aa89fc837fe0ce82e54.png" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/phone-f7de11a4e71c71e5c059018b5775397e.png" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/slider1-df00f0f0d956da3e16b73927e8b937f9.jpg" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/icon1-26f2647f9f27c3b3d2f80fcc93ab2f24.png" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/test-icon-e55fc9641cf7b3822be5189b325372e1.png" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/partner1-23ebc29c5f6eeee6bda391d7770544c5.png" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/partner2-2b572abfa90ce671c4b9669b15392150.png" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/partner3-ca4eae44a49b0bee4f7f29f9362e16ae.png" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/assets/partner4-d9c84f40a0324ac98d53a0e067778100.png" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+
+Started GET "/fonts/HelveticaNeue-Bold.woff" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fonts/HelveticaNeue-Bold.woff"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.5ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (3.9ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (20.8ms)
+
+
+Started GET "/fonts/HelveticaNeue.woff" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fonts/HelveticaNeue.woff"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (0.7ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/fonts/HelveticaNeue-Light.woff" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fonts/HelveticaNeue-Light.woff"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (0.7ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (17.0ms)
+
+
+Started GET "/img/correct.png" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/correct.png"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (16.3ms)
+
+
+Started GET "/fonts/HelveticaNeue-Bold.ttf" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fonts/HelveticaNeue-Bold.ttf"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (16.2ms)
+
+
+Started GET "/fonts/HelveticaNeue.ttf" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fonts/HelveticaNeue.ttf"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (0.7ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (15.1ms)
+
+
+Started GET "/fonts/HelveticaNeue-Light.ttf" for 127.0.0.1 at 2015-01-20 17:28:57 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fonts/HelveticaNeue-Light.ttf"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/doru/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (15.6ms)
+
+
+Started POST "/send" for 127.0.0.1 at 2015-01-20 17:29:08 +0200
+Processing by WelcomeController#send_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L+SwEiovLc67AuQHVbo5OuwHbb/iKwKF9aQVeUDq+1zX0fuwaNfJbi/VWJ5F0bD2IxrnC7tC9wbFjqoenUYfOQ==", "name"=>"asdfasdf", "company"=>"sa3f", "mail"=>"sakaiinskas37@gmail.com", "package"=>"Package Type", "commit"=>"Sign up"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from send_mail at /home/doru/RubymineProjects/proactives/app/controllers/welcome_controller.rb:8)
+  Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.1ms)
+  Rendered contact_mailer/welcome_email.text.erb within layouts/mailer (0.1ms)
+
+ContactMailer#welcome_email: processed outbound mail in 8.0ms
+
+Sent mail to wbenjamin1028@gmail.com (3997.4ms)
+Date: Tue, 20 Jan 2015 17:29:08 +0200
+From: sakaiinskas37@gmail.com
+To: wbenjamin1028@gmail.com
+Message-ID: <54be7444de455_588f3fe782132a8c2230@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_54be7444dd65a_588f3fe782132a8c222de";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_54be7444dd65a_588f3fe782132a8c222de
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi
+mail sent using smtp.
+
+----==_mimepart_54be7444dd65a_588f3fe782132a8c222de
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<p>
+  <strong>User full name:</strong>
+  asdfasdf
+</p>
+<p>
+  <strong>Company name:</strong>
+  sa3f
+</p>
+<p>
+  <strong>E-mail:</strong>
+  sakaiinskas37@gmail.com
+</p>
+<p>
+  <strong>Package Type:</strong>
+  Package Type
+</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_54be7444dd65a_588f3fe782132a8c222de--
+
+Completed 500 Internal Server Error in 4008ms
+
+Net::SMTPFatalError (550 Cannot receive from specified address <sakaiinskas37@gmail.com>: Unauthenticated senders not allowed
+):
+  app/controllers/welcome_controller.rb:8:in `send_mail'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (3.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (16.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fonts-5154d1c5710cb8e4cc0a38fc81377685.css?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/bootstrap-046d3bc5fdf9c22cba4af672aade917b.css?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/flexslider-a5c71668ac0c5abbef84a0288b2b0130.css?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/style-31860f48a423649c13e8c889d2124bd8.css?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/application-f9b5742d35fcebf88f3f2c4f8296149e.css?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/responsive-75f04aa3b61d137168b17990e5bc5c22.css?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/bootstrap-ea3b329478de86f6874de44432b0d04a.js?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/jquery.min-6697bf64cb07f58abfcb7e432990c397.js?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/jquery.flexslider-868b7a302b4dba92c4e66fb9f472c9f2.js?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/application-68c591992b38bb1e85707c11dd01b6b4.js?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/npm-da4f227e59af86f207a0205d406be261.js?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/script-abde7ea37811e7ab0857ba8d217991f2.js?body=1" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/close-e9ad086593bd1090a45f1ed7d48556d4.png" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/slider1-df00f0f0d956da3e16b73927e8b937f9.jpg" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/partner1-23ebc29c5f6eeee6bda391d7770544c5.png" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/test-icon-e55fc9641cf7b3822be5189b325372e1.png" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/logo-64931a89316f4aa89fc837fe0ce82e54.png" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/icon1-26f2647f9f27c3b3d2f80fcc93ab2f24.png" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/phone-f7de11a4e71c71e5c059018b5775397e.png" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/partner4-d9c84f40a0324ac98d53a0e067778100.png" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/partner2-2b572abfa90ce671c4b9669b15392150.png" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started GET "/assets/partner3-ca4eae44a49b0bee4f7f29f9362e16ae.png" for 127.0.0.1 at 2015-01-20 17:31:11 +0200
+
+
+Started POST "/send" for 127.0.0.1 at 2015-01-20 17:31:21 +0200
+Processing by WelcomeController#send_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JN2B0Q0pRrO3cx48fqaylp3lIjN5ZXja7QkkhqBfPULc6MpzT9GiEyOkoqVuzTtaUviohyAMjVndI5vhffPZJw==", "name"=>"asdfasdf", "company"=>"sa3f", "mail"=>"sakaiinskas37@gmail.com", "package"=>"Package Type", "commit"=>"Sign up"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from send_mail at /home/doru/RubymineProjects/proactives/app/controllers/welcome_controller.rb:8)
+  Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.1ms)
+  Rendered contact_mailer/welcome_email.text.erb within layouts/mailer (0.0ms)
+
+ContactMailer#welcome_email: processed outbound mail in 8.6ms
+
+Sent mail to wbenjamin1028@gmail.com (3790.1ms)
+Date: Tue, 20 Jan 2015 17:31:21 +0200
+From: sakaiinskas37@gmail.com
+To: wbenjamin1028@gmail.com
+Message-ID: <54be74c98e66f_588f3fe78cade7d42258@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_54be74c98d9a9_588f3fe78cade7d422481";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_54be74c98d9a9_588f3fe78cade7d422481
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi
+mail sent using smtp.
+
+----==_mimepart_54be74c98d9a9_588f3fe78cade7d422481
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<p>
+  <strong>User full name:</strong>
+  asdfasdf
+</p>
+<p>
+  <strong>Company name:</strong>
+  sa3f
+</p>
+<p>
+  <strong>E-mail:</strong>
+  sakaiinskas37@gmail.com
+</p>
+<p>
+  <strong>Package Type:</strong>
+  Package Type
+</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_54be74c98d9a9_588f3fe78cade7d422481--
+
+Completed 500 Internal Server Error in 3809ms
+
+Net::SMTPFatalError (550 Cannot receive from specified address <sakaiinskas37@gmail.com>: Unauthenticated senders not allowed
+):
+  app/controllers/welcome_controller.rb:8:in `send_mail'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (16.6ms)
+
+
+Started POST "/send" for 127.0.0.1 at 2015-01-20 17:32:10 +0200
+Processing by WelcomeController#send_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JN2B0Q0pRrO3cx48fqaylp3lIjN5ZXja7QkkhqBfPULc6MpzT9GiEyOkoqVuzTtaUviohyAMjVndI5vhffPZJw==", "name"=>"asdfasdf", "company"=>"sa3f", "mail"=>"sakaiinskas37@gmail.com", "package"=>"Package Type", "commit"=>"Sign up"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from send_mail at /home/doru/RubymineProjects/proactives/app/controllers/welcome_controller.rb:8)
+  Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.0ms)
+  Rendered contact_mailer/welcome_email.text.erb within layouts/mailer (0.0ms)
+
+ContactMailer#welcome_email: processed outbound mail in 7.1ms
+
+Sent mail to wbenjamin1028@gmail.com (1.5ms)
+Date: Tue, 20 Jan 2015 17:32:10 +0200
+To: wbenjamin1028@gmail.com
+Message-ID: <54be74fa64f3f_588f3fe77823ed04227cc@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_54be74fa64443_588f3fe77823ed0422615";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_54be74fa64443_588f3fe77823ed0422615
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi
+mail sent using smtp.
+
+----==_mimepart_54be74fa64443_588f3fe77823ed0422615
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<p>
+  <strong>User full name:</strong>
+  asdfasdf
+</p>
+<p>
+  <strong>Company name:</strong>
+  sa3f
+</p>
+<p>
+  <strong>E-mail:</strong>
+  sakaiinskas37@gmail.com
+</p>
+<p>
+  <strong>Package Type:</strong>
+  Package Type
+</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_54be74fa64443_588f3fe77823ed0422615--
+
+Completed 500 Internal Server Error in 17ms
+
+ArgumentError (An SMTP From address is required to send a message. Set the message smtp_envelope_from, return_path, sender, or from address.):
+  app/controllers/welcome_controller.rb:8:in `send_mail'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (16.2ms)
+
+
+Started POST "/send" for 127.0.0.1 at 2015-01-20 17:33:52 +0200
+Processing by WelcomeController#send_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JN2B0Q0pRrO3cx48fqaylp3lIjN5ZXja7QkkhqBfPULc6MpzT9GiEyOkoqVuzTtaUviohyAMjVndI5vhffPZJw==", "name"=>"asdfasdf", "company"=>"sa3f", "mail"=>"sakaiinskas37@gmail.com", "package"=>"Package Type", "commit"=>"Sign up"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from send_mail at /home/doru/RubymineProjects/proactives/app/controllers/welcome_controller.rb:8)
+  Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.0ms)
+  Rendered contact_mailer/welcome_email.text.erb within layouts/mailer (0.0ms)
+
+ContactMailer#welcome_email: processed outbound mail in 7.7ms
+
+Sent mail to wbenjamin1028@gmail.com (1.5ms)
+Date: Tue, 20 Jan 2015 17:33:52 +0200
+To: wbenjamin1028@gmail.com
+Message-ID: <54be756061efc_588f3fe7782d1438229dc@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_54be75606144b_588f3fe7782d14382289c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_54be75606144b_588f3fe7782d14382289c
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi
+mail sent using smtp.
+
+----==_mimepart_54be75606144b_588f3fe7782d14382289c
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<p>
+  <strong>User full name:</strong>
+  asdfasdf
+</p>
+<p>
+  <strong>Company name:</strong>
+  sa3f
+</p>
+<p>
+  <strong>E-mail:</strong>
+  sakaiinskas37@gmail.com
+</p>
+<p>
+  <strong>Package Type:</strong>
+  Package Type
+</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_54be75606144b_588f3fe7782d14382289c--
+
+Completed 500 Internal Server Error in 17ms
+
+ArgumentError (An SMTP From address is required to send a message. Set the message smtp_envelope_from, return_path, sender, or from address.):
+  app/controllers/welcome_controller.rb:8:in `send_mail'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (3.4ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 154ms (Views: 147.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-046d3bc5fdf9c22cba4af672aade917b.css?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/responsive-75f04aa3b61d137168b17990e5bc5c22.css?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/style-31860f48a423649c13e8c889d2124bd8.css?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/flexslider-a5c71668ac0c5abbef84a0288b2b0130.css?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/fonts-5154d1c5710cb8e4cc0a38fc81377685.css?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/application-f9b5742d35fcebf88f3f2c4f8296149e.css?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/jquery.min-6697bf64cb07f58abfcb7e432990c397.js?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/bootstrap-ea3b329478de86f6874de44432b0d04a.js?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/jquery.flexslider-868b7a302b4dba92c4e66fb9f472c9f2.js?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/script-abde7ea37811e7ab0857ba8d217991f2.js?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/npm-da4f227e59af86f207a0205d406be261.js?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/application-68c591992b38bb1e85707c11dd01b6b4.js?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/close-e9ad086593bd1090a45f1ed7d48556d4.png" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/logo-64931a89316f4aa89fc837fe0ce82e54.png" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/slider1-df00f0f0d956da3e16b73927e8b937f9.jpg" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/partner1-23ebc29c5f6eeee6bda391d7770544c5.png" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/test-icon-e55fc9641cf7b3822be5189b325372e1.png" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/icon1-26f2647f9f27c3b3d2f80fcc93ab2f24.png" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/phone-f7de11a4e71c71e5c059018b5775397e.png" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/partner2-2b572abfa90ce671c4b9669b15392150.png" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/partner3-ca4eae44a49b0bee4f7f29f9362e16ae.png" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started GET "/assets/partner4-d9c84f40a0324ac98d53a0e067778100.png" for 127.0.0.1 at 2015-01-20 17:34:18 +0200
+
+
+Started POST "/send" for 127.0.0.1 at 2015-01-20 17:34:28 +0200
+Processing by WelcomeController#send_mail as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AhXxe95gagIBQWg41/vzyFS8NJ1i+E0Mhu4Hfv2Q/7X6ILrZnJiOopWW1KHHkHoEm6G+KTuRuI+2xLgZIDwb0A==", "name"=>"asd", "company"=>"sa3f", "mail"=>"wbenjamin1028@gmail.com", "package"=>"Package Type", "commit"=>"Sign up"}
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from send_mail at /home/doru/RubymineProjects/proactives/app/controllers/welcome_controller.rb:8)
+  Rendered contact_mailer/welcome_email.html.erb within layouts/mailer (0.3ms)
+  Rendered contact_mailer/welcome_email.text.erb within layouts/mailer (0.1ms)
+
+ContactMailer#welcome_email: processed outbound mail in 77.1ms
+
+Sent mail to wbenjamin1028@gmail.com (3.5ms)
+Date: Tue, 20 Jan 2015 17:34:28 +0200
+To: wbenjamin1028@gmail.com
+Message-ID: <54be758481352_59613fb9859ee980454fc@doru-All-Series.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_54be758480388_59613fb9859ee9804537c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_54be758480388_59613fb9859ee9804537c
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hi
+mail sent using smtp.
+
+----==_mimepart_54be758480388_59613fb9859ee9804537c
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<p>
+  <strong>User full name:</strong>
+  asd
+</p>
+<p>
+  <strong>Company name:</strong>
+  sa3f
+</p>
+<p>
+  <strong>E-mail:</strong>
+  wbenjamin1028@gmail.com
+</p>
+<p>
+  <strong>Package Type:</strong>
+  Package Type
+</p>
+</body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_54be758480388_59613fb9859ee9804537c--
+
+Completed 500 Internal Server Error in 88ms
+
+ArgumentError (An SMTP From address is required to send a message. Set the message smtp_envelope_from, return_path, sender, or from address.):
+  app/controllers/welcome_controller.rb:8:in `send_mail'
+
+
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /home/doru/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (15.6ms)
