@@ -13,7 +13,7 @@ class WelcomeController < ApplicationController
     # mail.delivery_method :sendmail
     #
     # mail.deliver
-    ContactMailer.welcome_email().deliver
+    ContactMailer.welcome_email.deliver
 
     render text: "abcdeaas12113"
   end
